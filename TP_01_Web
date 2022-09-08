@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TP WEB</title>
+<style>
+    body {background-color: aliceblue;}
+    h1   {color: grey;}
+    p    {color: red;}
+    label {color : darkorchid;}
+    button{background-color: bisque;}
+    </style>
+</head>     
+<body>
+    <h1>Ceci est le premier TP WEB</h1>
+    <p>Informations clients :</p>
+    <form>
+        <label for="fname">Prenom:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Nom:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="fname">Adresse:</label><br>
+        <input type="text" id="adress" name="adress"><br>
+        <label for="lname">Code Postal:</label><br>
+        <input type="text" id="CP" name="CP"><br>
+        <label for="fname">Ville:</label><br>
+        <input type="text" id="city" name="city"><br>
+        <label for="lname">Télephone:</label><br>
+        <input type="text" id="Phone" name="Phone"><br>
+        <label for="fname">Email:</label><br>
+        <input type="text" id="mail" name="mail"><br>
+        <label for="lname">Civilité:</label><br>
+        <input type="text" id="civility" name="civility"><br>
+        <label for="fname">Mot de passe:</label><br>
+        <input type="text" id="Password" name="Password"><br>
+        <label for="lname">Identifiant:</label><br>
+        <input type="text" id="ID" name="ID"><br><br>
+      </form>
+      <button class="Send info"
+      type="button">
+  Envoyer
+</button>
+</body>
+</html>
